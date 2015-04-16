@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6950BCBC1ADF5CB800897F47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6950BCBB1ADF5CB800897F47 /* main.m */; };
+		6950BCBF1ADF5CB800897F47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6950BCBE1ADF5CB800897F47 /* AppDelegate.m */; };
+		6950BCC21ADF5CB800897F47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6950BCC11ADF5CB800897F47 /* ViewController.m */; };
+		6950BCC51ADF5CB800897F47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6950BCC31ADF5CB800897F47 /* Main.storyboard */; };
+		6950BCC71ADF5CB800897F47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6950BCC61ADF5CB800897F47 /* Images.xcassets */; };
+		6950BCCA1ADF5CB800897F47 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6950BCC81ADF5CB800897F47 /* LaunchScreen.xib */; };
+		6950BCD61ADF5CB800897F47 /* HYBNSStringExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6950BCD51ADF5CB800897F47 /* HYBNSStringExtensionTests.m */; };
+		6950BCE21ADF5CE600897F47 /* NSString+HYBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6950BCE11ADF5CE600897F47 /* NSString+HYBExtension.m */; };
+		6950BCE51ADF5E7C00897F47 /* NSData+HYBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6950BCE41ADF5E7C00897F47 /* NSData+HYBExtension.m */; };
+		6950BCE81ADF5ECE00897F47 /* NSError+HYBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6950BCE71ADF5ECE00897F47 /* NSError+HYBExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6950BCD01ADF5CB800897F47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6950BCAE1ADF5CB800897F47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6950BCB51ADF5CB800897F47;
+			remoteInfo = HYBNSStringExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6950BCB61ADF5CB800897F47 /* HYBNSStringExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYBNSStringExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6950BCBA1ADF5CB800897F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6950BCBB1ADF5CB800897F47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6950BCBD1ADF5CB800897F47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6950BCBE1ADF5CB800897F47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6950BCC01ADF5CB800897F47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6950BCC11ADF5CB800897F47 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6950BCC41ADF5CB800897F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6950BCC61ADF5CB800897F47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6950BCC91ADF5CB800897F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6950BCCF1ADF5CB800897F47 /* HYBNSStringExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYBNSStringExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6950BCD41ADF5CB800897F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6950BCD51ADF5CB800897F47 /* HYBNSStringExtensionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYBNSStringExtensionTests.m; sourceTree = "<group>"; };
+		6950BCE01ADF5CE600897F47 /* NSString+HYBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+HYBExtension.h"; path = "HYBNSStringExtension/NSString+HYBExtension.h"; sourceTree = "<group>"; };
+		6950BCE11ADF5CE600897F47 /* NSString+HYBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+HYBExtension.m"; path = "HYBNSStringExtension/NSString+HYBExtension.m"; sourceTree = "<group>"; };
+		6950BCE31ADF5E7C00897F47 /* NSData+HYBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+HYBExtension.h"; path = "HYBNSStringExtension/NSData+HYBExtension.h"; sourceTree = "<group>"; };
+		6950BCE41ADF5E7C00897F47 /* NSData+HYBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+HYBExtension.m"; path = "HYBNSStringExtension/NSData+HYBExtension.m"; sourceTree = "<group>"; };
+		6950BCE61ADF5ECE00897F47 /* NSError+HYBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSError+HYBExtension.h"; path = "HYBNSStringExtension/NSError+HYBExtension.h"; sourceTree = "<group>"; };
+		6950BCE71ADF5ECE00897F47 /* NSError+HYBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSError+HYBExtension.m"; path = "HYBNSStringExtension/NSError+HYBExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6950BCB31ADF5CB800897F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6950BCCC1ADF5CB800897F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6950BCAD1ADF5CB800897F47 = {
+			isa = PBXGroup;
+			children = (
+				6950BCB81ADF5CB800897F47 /* HYBNSStringExtension */,
+				6950BCD21ADF5CB800897F47 /* HYBNSStringExtensionTests */,
+				6950BCB71ADF5CB800897F47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6950BCB71ADF5CB800897F47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6950BCB61ADF5CB800897F47 /* HYBNSStringExtension.app */,
+				6950BCCF1ADF5CB800897F47 /* HYBNSStringExtensionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6950BCB81ADF5CB800897F47 /* HYBNSStringExtension */ = {
+			isa = PBXGroup;
+			children = (
+				6950BCDF1ADF5CC100897F47 /* HYBNSStringExtension */,
+				6950BCBD1ADF5CB800897F47 /* AppDelegate.h */,
+				6950BCBE1ADF5CB800897F47 /* AppDelegate.m */,
+				6950BCC01ADF5CB800897F47 /* ViewController.h */,
+				6950BCC11ADF5CB800897F47 /* ViewController.m */,
+				6950BCC31ADF5CB800897F47 /* Main.storyboard */,
+				6950BCC61ADF5CB800897F47 /* Images.xcassets */,
+				6950BCC81ADF5CB800897F47 /* LaunchScreen.xib */,
+				6950BCB91ADF5CB800897F47 /* Supporting Files */,
+			);
+			path = HYBNSStringExtension;
+			sourceTree = "<group>";
+		};
+		6950BCB91ADF5CB800897F47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6950BCBA1ADF5CB800897F47 /* Info.plist */,
+				6950BCBB1ADF5CB800897F47 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6950BCD21ADF5CB800897F47 /* HYBNSStringExtensionTests */ = {
+			isa = PBXGroup;
+			children = (
+				6950BCD51ADF5CB800897F47 /* HYBNSStringExtensionTests.m */,
+				6950BCD31ADF5CB800897F47 /* Supporting Files */,
+			);
+			path = HYBNSStringExtensionTests;
+			sourceTree = "<group>";
+		};
+		6950BCD31ADF5CB800897F47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6950BCD41ADF5CB800897F47 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6950BCDF1ADF5CC100897F47 /* HYBNSStringExtension */ = {
+			isa = PBXGroup;
+			children = (
+				6950BCE01ADF5CE600897F47 /* NSString+HYBExtension.h */,
+				6950BCE11ADF5CE600897F47 /* NSString+HYBExtension.m */,
+				6950BCE31ADF5E7C00897F47 /* NSData+HYBExtension.h */,
+				6950BCE41ADF5E7C00897F47 /* NSData+HYBExtension.m */,
+				6950BCE61ADF5ECE00897F47 /* NSError+HYBExtension.h */,
+				6950BCE71ADF5ECE00897F47 /* NSError+HYBExtension.m */,
+			);
+			name = HYBNSStringExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6950BCB51ADF5CB800897F47 /* HYBNSStringExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6950BCD91ADF5CB800897F47 /* Build configuration list for PBXNativeTarget "HYBNSStringExtension" */;
+			buildPhases = (
+				6950BCB21ADF5CB800897F47 /* Sources */,
+				6950BCB31ADF5CB800897F47 /* Frameworks */,
+				6950BCB41ADF5CB800897F47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYBNSStringExtension;
+			productName = HYBNSStringExtension;
+			productReference = 6950BCB61ADF5CB800897F47 /* HYBNSStringExtension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6950BCCE1ADF5CB800897F47 /* HYBNSStringExtensionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6950BCDC1ADF5CB800897F47 /* Build configuration list for PBXNativeTarget "HYBNSStringExtensionTests" */;
+			buildPhases = (
+				6950BCCB1ADF5CB800897F47 /* Sources */,
+				6950BCCC1ADF5CB800897F47 /* Frameworks */,
+				6950BCCD1ADF5CB800897F47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6950BCD11ADF5CB800897F47 /* PBXTargetDependency */,
+			);
+			name = HYBNSStringExtensionTests;
+			productName = HYBNSStringExtensionTests;
+			productReference = 6950BCCF1ADF5CB800897F47 /* HYBNSStringExtensionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6950BCAE1ADF5CB800897F47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = huangyibiao;
+				TargetAttributes = {
+					6950BCB51ADF5CB800897F47 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					6950BCCE1ADF5CB800897F47 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 6950BCB51ADF5CB800897F47;
+					};
+				};
+			};
+			buildConfigurationList = 6950BCB11ADF5CB800897F47 /* Build configuration list for PBXProject "HYBNSStringExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6950BCAD1ADF5CB800897F47;
+			productRefGroup = 6950BCB71ADF5CB800897F47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6950BCB51ADF5CB800897F47 /* HYBNSStringExtension */,
+				6950BCCE1ADF5CB800897F47 /* HYBNSStringExtensionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6950BCB41ADF5CB800897F47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6950BCC51ADF5CB800897F47 /* Main.storyboard in Resources */,
+				6950BCCA1ADF5CB800897F47 /* LaunchScreen.xib in Resources */,
+				6950BCC71ADF5CB800897F47 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6950BCCD1ADF5CB800897F47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6950BCB21ADF5CB800897F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6950BCC21ADF5CB800897F47 /* ViewController.m in Sources */,
+				6950BCE81ADF5ECE00897F47 /* NSError+HYBExtension.m in Sources */,
+				6950BCE21ADF5CE600897F47 /* NSString+HYBExtension.m in Sources */,
+				6950BCBF1ADF5CB800897F47 /* AppDelegate.m in Sources */,
+				6950BCBC1ADF5CB800897F47 /* main.m in Sources */,
+				6950BCE51ADF5E7C00897F47 /* NSData+HYBExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6950BCCB1ADF5CB800897F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6950BCD61ADF5CB800897F47 /* HYBNSStringExtensionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6950BCD11ADF5CB800897F47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6950BCB51ADF5CB800897F47 /* HYBNSStringExtension */;
+			targetProxy = 6950BCD01ADF5CB800897F47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6950BCC31ADF5CB800897F47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6950BCC41ADF5CB800897F47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6950BCC81ADF5CB800897F47 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6950BCC91ADF5CB800897F47 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6950BCD71ADF5CB800897F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6950BCD81ADF5CB800897F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6950BCDA1ADF5CB800897F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYBNSStringExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6950BCDB1ADF5CB800897F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYBNSStringExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6950BCDD1ADF5CB800897F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HYBNSStringExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYBNSStringExtension.app/HYBNSStringExtension";
+			};
+			name = Debug;
+		};
+		6950BCDE1ADF5CB800897F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HYBNSStringExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYBNSStringExtension.app/HYBNSStringExtension";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6950BCB11ADF5CB800897F47 /* Build configuration list for PBXProject "HYBNSStringExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6950BCD71ADF5CB800897F47 /* Debug */,
+				6950BCD81ADF5CB800897F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6950BCD91ADF5CB800897F47 /* Build configuration list for PBXNativeTarget "HYBNSStringExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6950BCDA1ADF5CB800897F47 /* Debug */,
+				6950BCDB1ADF5CB800897F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6950BCDC1ADF5CB800897F47 /* Build configuration list for PBXNativeTarget "HYBNSStringExtensionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6950BCDD1ADF5CB800897F47 /* Debug */,
+				6950BCDE1ADF5CB800897F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6950BCAE1ADF5CB800897F47 /* Project object */;
+}

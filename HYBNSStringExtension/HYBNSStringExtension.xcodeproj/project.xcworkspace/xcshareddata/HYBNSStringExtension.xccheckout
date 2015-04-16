@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B30F5661-4822-4DA3-80BB-2CA3A07549AB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DFA9740037153F4ED3FA86E2397670577B7BABFF</key>
+		<string>https://github.com/632840804/HYBNSStringExtension.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HYBNSStringExtension/HYBNSStringExtension.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DFA9740037153F4ED3FA86E2397670577B7BABFF</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/632840804/HYBNSStringExtension.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DFA9740037153F4ED3FA86E2397670577B7BABFF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DFA9740037153F4ED3FA86E2397670577B7BABFF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HYBNSStringExtension</string>
+		</dict>
+	</array>
+</dict>
+</plist>
